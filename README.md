@@ -82,7 +82,7 @@ source ~/path/to/gf-completion.zsh
 ```
 
 Note: if you're using oh-my-zsh or similar you may find that `gf` is an alias for `git fetch`. You can either
-alias the gf binary to something else, or `unalias gf` to remove the `git fetch` alias.
+alias the gf binary to something else, or `unalias gf` to remove the `git fetch` alias. If the `git fetch` alias persists even after running `source ~/.zshrc`, you can add the following line to your `~/.zshrc` file: `alias gf="/home/bardia/go/bin/gf"`. This will ensure that gf points to the correct binary.
 
 ### Using custom engines
 
